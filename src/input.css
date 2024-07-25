@@ -6,6 +6,6 @@
 
 @layer base {
   .curved {
-    @apply after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-15px] after:bg-inherit after:h-[35px] after:rounded-[50%];
+    @apply after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-15px] after:bg-inherit after:h-[35px] after:rounded-[50%] after:z-[1];
   }
 }
