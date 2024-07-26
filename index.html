@@ -15,65 +15,98 @@
   </head>
   <body>
     <header
-      class="bg-dark-purple px-4 pt-9 text-center text-white min-h-[481.707px] max-h-[730px] relative curved"
+      class="bg-dark-purple px-4 md:px-10 lg:px-40 pt-8 lg:pt-14 text-center text-white min-h-[481.707px] md:min-h-[540.236px] lg:min-h-[730px] relative curved"
     >
+      <img
+        src="./images/bg-pattern-1.svg"
+        alt=""
+        class="absolute -left-[225px] lg:-left-[145px] top-1/2 -translate-y-1/2 invisible md:visible"
+      />
+      <img
+        src="./images/bg-pattern-2.svg"
+        alt=""
+        class="absolute -right-[95px] lg:-right-[45px] top-1/2 invisible md:visible"
+      />
+
       <nav class="flex items-center justify-between mb-16">
         <h1 class=""><img src="./images/logo-light.svg" alt="logo" /></h1>
         <a
           href="#"
-          class="font-manrope text-base font-bold leading-8 tracking-[-0.16px] border-b-[3px] border-eucaplyptus hover:text-eucaplyptus transition-colors"
+          class="font-manrope text-base lg:text-lg font-bold leading-8 tracking-[-0.16px] lg:tracking-[-0.18px] border-b-[3px] border-eucaplyptus hover:text-eucaplyptus transition-colors"
           >Apply for access</a
         >
       </nav>
-      <h2 class="font-fraunces text-[46px] font-semibold leading-[50px] mb-10">
+      <h2
+        class="font-fraunces text-[46px] md:text-6xl lg:text-[80px] font-semibold leading-[50px] md:leading-[60px] lg:leading-[80px] mb-10 md:mb-14 lg:mb-9 min-w-[343px] md:max-w-[573px] lg:max-w-[635px] mx-auto md:px-10"
+      >
         Data
-        <span class="border-b-[3px] border-eucaplyptus pb[-1px]">tailored</span>
+        <span class="border-b-[3px] border-eucaplyptus pb-[1px] inline-block"
+          >tailored</span
+        >
         to your needs.
       </h2>
+
       <a
         href="#"
-        class="px-6 py-3 bg-eucaplyptus text-dark-purple text-base leading-8 tracking-[-0.16px] font-bold font-manrope border-2 border-eucaplyptus hover:text-eucaplyptus hover:bg-dark-purple transition-all"
+        class="px-6 py-3 bg-eucaplyptus text-dark-purple text-base lg:text-lg leading-8 tracking-[-0.16px] lg:tracking-[-0.18px] font-bold font-manrope border-2 border-eucaplyptus hover:text-eucaplyptus hover:bg-dark-purple transition-all inline-block"
         >Learn more</a
       >
-      <img
-        src="./images/image-hero.webp"
-        alt="image hero"
-        class="max-w-[298.305px] absolute top-[410px] left-1/2 -translate-x-1/2 z-20"
-      />
+
+      <div
+        class="min-w-[298.305px] md:max-w-[470.441px] lg:max-w-[702px] absolute top-[410px] md:top-[430px] lg:top-[530px] left-1/2 -translate-x-1/2 z-20"
+      >
+        <img src="./images/image-hero.webp" alt="image hero" class="w-full" />
+      </div>
     </header>
 
-    <main class="mb-[74px]">
+    <main class="mb-[74px] md:mb-20 lg:mb-32">
       <section
-        class="bg-ghost-white pt-40 px-4 pb-[72px] relative curved flex flex-col items-center gap-10 text-dark-purple text-center font-fraunces"
+        class="bg-ghost-white pt-40 md:pt-48 lg:pt-[255px] px-4 md:px-[100px] lg:px-40 pb-[72px] md:pb-[100px] relative curved flex flex-col lg:flex-row items-center md:items-start lg:items-center gap-10 text-dark-purple font-fraunces"
       >
-        <div class="flex flex-col items-center gap-6">
+        <div
+          class="flex flex-col md:flex-row lg:flex-col items-center gap-6 md:gap-8 lg:gap-14"
+        >
           <p
-            class="border-[1px] border-davys-grey rounded-[30.5px] w-12 h-[46px] flex items-center justify-center text-xl font-semibold leading-9"
+            class="border-[1px] border-davys-grey rounded-full size-12 lg:size-14 flex items-center justify-center text-lg lg:text-2xl font-semibold leading-9 lg:leading-10 p-4"
           >
             1
           </p>
-          <div class="flex flex-col items-center gap-4">
-            <h3 class="text-[28px] font-semibold leading-9">
+          <div
+            class="flex flex-col items-center md:items-start lg:items-center gap-4 lg:gap-7 text-center md:text-left lg:text-center"
+          >
+            <h3
+              class="text-[28px] lg:text-[32px] font-semibold leading-9 lg:leading-10"
+            >
               Actionable insights
             </h3>
-            <p class="text-davys-grey font-manrope text-base leading-7">
+            <p
+              class="text-davys-grey font-manrope text-base lg:text-lg leading-7 lg:leading-8"
+            >
               Optimize your products, improve customer satisfaction and stay
               ahead of the competition with our product data analytics.
             </p>
           </div>
         </div>
         <!-- one description -->
-        <div class="flex flex-col items-center gap-6">
+        <div
+          class="flex flex-col md:flex-row lg:flex-col items-center gap-6 md:gap-8 lg:gap-14"
+        >
           <p
-            class="border-[1px] border-davys-grey rounded-[30.5px] w-12 h-[46px] flex items-center justify-center text-xl font-semibold leading-9"
+            class="border-[1px] border-davys-grey rounded-full size-12 lg:size-14 flex items-center justify-center text-lg lg:text-2xl font-semibold leading-9 lg:leading-10 p-4"
           >
             2
           </p>
-          <div class="flex flex-col items-center gap-4">
-            <h3 class="text-[28px] font-semibold leading-9">
+          <div
+            class="flex flex-col items-center md:items-start lg:items-center gap-4 lg:gap-7 text-center md:text-left lg:text-center"
+          >
+            <h3
+              class="text-[28px] lg:text-[32px] font-semibold leading-9 lg:leading-10"
+            >
               Data-driven decisions
             </h3>
-            <p class="text-davys-grey font-manrope text-base leading-7">
+            <p
+              class="text-davys-grey font-manrope text-base lg:text-lg leading-7 lg:leading-8"
+            >
               Make data-driven decisions with our product data analytics. Our
               AI-generated reports help you unlock insights hidden in your
               product data.
@@ -81,17 +114,25 @@
           </div>
         </div>
         <!-- one description -->
-        <div class="flex flex-col items-center gap-6">
+        <div
+          class="flex flex-col md:flex-row lg:flex-col items-center gap-6 md:gap-8 lg:gap-14"
+        >
           <p
-            class="border-[1px] border-davys-grey rounded-[30.5px] w-12 h-[46px] flex items-center justify-center text-xl font-semibold leading-9"
+            class="border-[1px] border-davys-grey rounded-full size-12 lg:size-14 flex items-center justify-center text-lg lg:text-2xl font-semibold leading-9 lg:leading-10 p-4"
           >
             3
           </p>
-          <div class="flex flex-col items-center gap-4">
-            <h3 class="text-[28px] font-semibold leading-9">
+          <div
+            class="flex flex-col items-center md:items-start lg:items-center gap-4 lg:gap-7 text-center md:text-left lg:text-center"
+          >
+            <h3
+              class="text-[28px] lg:text-[32px] font-semibold leading-9 lg:leading-10"
+            >
               Always affordable
             </h3>
-            <p class="text-davys-grey font-manrope text-base leading-7">
+            <p
+              class="text-davys-grey font-manrope text-base lg:text-lg leading-7 lg:leading-8"
+            >
               Always affordable pricing that scales with your business. Get
               top-quality product data analytics services without hidden costs
               or unexpected fees.
@@ -101,21 +142,25 @@
         <!-- one description -->
       </section>
 
-      <section class="bg-white pt-[100px] px-4">
-        <img
-          src="./images/image-founder.webp"
-          alt="image founder"
-          class="size-[281px] relative left-1/2 -translate-x-1/2 -bottom-[55px]"
-        />
+      <section
+        class="bg-white pt-[328px] md:pt-[251px] lg:pt-[283px] px-4 flex items-center justify-center"
+      >
         <div
-          class="min-w-[343px] max-w-[730px] bg-dark-purple p-8 text-center text-white overflow-hidden relative z-10"
+          class="min-w-[343px] md:max-w-[514px] lg:max-w-[730px] bg-dark-purple p-8 md:p-14 lg:p-16 text-center md:text-left text-white relative z-10 lg:ml-96"
         >
+          <img
+            src="./images/image-founder.webp"
+            alt="image founder"
+            class="size-[281px] lg:size-[477px] absolute left-1/2 md:-left-[175px] lg:-left-[385px] -translate-x-1/2 md:-translate-x-0 -top-[235px] md:-top-[150px] lg:-top-[180px] -z-10 mix-blend-darken"
+          />
           <h3
-            class="font-fraunces text-[32px] font-semibold leading-[48px] mb-4"
+            class="font-fraunces text-[32px] md:text-[48px] lg:text-[56px] font-semibold leading-[48px] md:leading-[56px] lg:leading-[64px] mb-4 md:mb-6 lg:mb-8"
           >
             Be the first to test
           </h3>
-          <p class="text-center font-manrope text-base leading-7 pb-7">
+          <p
+            class="font-manrope text-base lg:text-[18px] leading-7 lg:leading-8 mb-6 lg:mb-8"
+          >
             Hi, I'm Louis Graham, the founder of the company. Book a demo call
             with me to become a beta tester for our app and kickstart your
             company. Apply for access below and I’ll be in touch to schedule a
@@ -123,9 +168,14 @@
           </p>
           <a
             href="#"
-            class="px-6 py-3 bg-eucaplyptus text-dark-purple text-base leading-8 tracking-[-0.16px] font-bold font-manrope border-2 border-eucaplyptus hover:text-eucaplyptus hover:bg-dark-purple transition-all"
+            class="px-6 py-3 bg-eucaplyptus text-dark-purple text-base lg:text-[18px] leading-8 tracking-[-0.16px] font-bold font-manrope border-2 border-eucaplyptus hover:text-eucaplyptus hover:bg-dark-purple transition-all inline-block"
             >Apply for access</a
           >
+          <img
+            src="./images/bg-pattern-3.svg"
+            alt=""
+            class="absolute right-0 lg:right-[60px] -bottom-[105px] lg:-bottom-[60px] z-0 invisible md:visible"
+          />
         </div>
       </section>
     </main>
